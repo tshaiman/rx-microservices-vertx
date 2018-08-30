@@ -19,6 +19,7 @@ public class SuperHeroesService {
     private Map<Integer, Character> villains;
     private Map<Integer, Character> heroes;
 
+    public static void run() { new SuperHeroesService().start().blockingAwait();}
     public Completable start() {
 
         Vertx vertx = Vertx.vertx();
