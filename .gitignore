@@ -61,3 +61,13 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Maven
+log/
+target/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/sbt.xml
+.vertx/
+
